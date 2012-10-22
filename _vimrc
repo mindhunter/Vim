@@ -216,10 +216,10 @@ imap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
 vmap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
 
 " jj                  保存当前文件并留在插入模式      [插入模式]
-imap jj <ESC>:w<CR>li
+"imap jj <ESC>:w<CR>li
 
 " kk                  返回Normal模式，不执行保存      [插入模式]
-imap kk <ESC>l
+"imap kk <ESC>l
 
 " nt                  打开NERDTree窗口，在左侧栏显示  [非插入模式]
 map nt :NERDTree<CR>

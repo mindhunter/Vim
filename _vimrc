@@ -145,8 +145,23 @@ endif
 
 " 启用全屏插件，设置F11为快捷键 
 if has('gui_running') && has("win32")
-    map <F11> :call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
+    map <s-F11> :call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 endif
+
+" 启用最大最小化快捷键
+let w:full_screen=0
+map <F11> :call FullScreen()<cr>
+
+func! FullScreen()
+    if w:full_screen==1
+        let w:full_screen=0
+        :simalt ~R
+    else
+        :simalt ~X
+        let w:full_screen=1
+    endif
+endfunc
+
 
 
 " ======= 引号 && 括号自动匹配 ======= "

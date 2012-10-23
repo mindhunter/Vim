@@ -76,7 +76,8 @@
 "colorscheme blackboard      " Ruby蓝色着色模式
 colorscheme molokai          " Sublime Text着色模式
 "colorscheme ubloh           " 突出注释的艳丽着色模式
-set guifont=Monaco:h11       " Monaco字体
+"colorscheme inkpot
+set guifont=Monaco:h10       " Monaco字体
 set backspace=2              " 设置退格键可用
 set autoindent               " 自动对齐
 set ai!                      " 设置自动缩进
@@ -90,7 +91,9 @@ set incsearch                " 开启实时搜索功能
 set hlsearch                 " 开启高亮显示结果
 "set nowrapscan              " 搜索到文件两端时不重新搜索
 set nocompatible             " 关闭兼容模式
-set vb t_vb=                 " 关闭提示音
+set noerrorbells             " 关闭错误信息响铃
+set novisualbell             " 关闭可视响铃
+set t_vb=                    " 关闭提示音
 set hidden                   " 允许在有未保存的修改时切换缓冲区
 set autochdir                " 设定文件浏览器目录为当前目录
 set foldmethod=syntax        " 选择代码折叠类型
@@ -188,7 +191,7 @@ let Tlist_Use_Right_Window=1                 " 在右侧窗口中显示
 let Tlist_File_Fold_Auto_Close=1             " 自动折叠
 
 " :LoadTemplate       根据文件后缀自动加载模板
-let g:template_path='C:\Vim\vim73\template\'
+let g:template_path='D:\Program Files\vim\vim73\template\'
 
 " snipMate            Tab智能补全
 let g:snips_author='lee'
@@ -257,14 +260,14 @@ func! RunCode()
 endfunc
 
 " Ctrl + C 一键保存、编译
-map <c-c> :call CompileCode()<CR>
-imap <c-c> <ESC>:call CompileCode()<CR>
-vmap <c-c> <ESC>:call CompileCode()<CR>
+"map <c-c> :call CompileCode()<CR>
+"imap <c-c> <ESC>:call CompileCode()<CR>
+"vmap <c-c> <ESC>:call CompileCode()<CR>
 
 " Ctrl + R 一键保存、运行
-map <c-r> :call RunCode()<CR>
-imap <c-r> <ESC>:call RunCode()<CR>
-vmap <c-r> <ESC>:call RunCode()<CR>
+"map <c-r> :call RunCode()<CR>
+"imap <c-r> <ESC>:call RunCode()<CR>
+"vmap <c-r> <ESC>:call RunCode()<CR>
 
 
 " ======= VimWiki ======= "
@@ -281,10 +284,15 @@ let g:vimwiki_camel_case = 0
 " 声明可以在wiki里面使用的HTML标签
 let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,br,hr,div,del,code,red,center,left,right,h2,h4,h5,h6,pre,script,style'
 
+map <S-F4> :w<cr> :VimwikiAll2HTML<cr>
+map <F4> :w<cr> :Vimwiki2HTML<cr> 
+
 let g:vimwiki_list = [{
-\ 'path': 'C:/Users/lee/Documents/mysite/wiki',
-\ 'path_html': 'C:/Users/lee/Documents/mysite/html/',
-\ 'html_header': 'C:/Users/lee/Documents/mysite/template/header.html',
-\ 'html_footer': 'C:/Users/lee/Documents/mysite/template/footer.html',
+\ 'path': 'D:/mysite/wiki',
+\ 'path_html': 'D:/mysite/html/',
 \ 'auto_export': 1,
 \ 'nested_syntaxes': {'Clang': 'c', 'C++': 'cpp', 'Lisp': 'lisp', 'Ruby': 'ruby', 'SQL': 'sql', 'Bash': 'sh', 'Vim': 'vim', 'Make': 'make', 'CMake': 'cmake', 'JS': 'javascript', 'CSS': 'css', 'HTML': 'html', 'XML': 'xml'},}]
+
+" calendar 日历功能
+map <F12> :Calendar<cr> 
+

@@ -313,3 +313,13 @@ map <F8> :Calendar<cr>
 
 " 使用source insight打开
 nnoremap <silent>  <F12> :!start "D:\Program Files\Source Insight 3\Insight3.exe" -i  +<C-R>=expand(line("."))<CR> %<CR>
+
+"启动时不显示提示
+set shortmess=atI
+
+" 保留历史记录
+set history=500
+
+" 更改注释的颜色
+hi Comment term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=yellow guibg=NONE
+ 

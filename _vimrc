@@ -297,7 +297,7 @@ let g:vimwiki_use_mouse = 1
 let g:vimwiki_camel_case = 0
 
 " 声明可以在wiki里面使用的HTML标签
-let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,br,hr,div,del,code,red,center,left,right,h2,h4,h5,h6,pre,script,style'
+let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,br,hr,div,del,code,red,center,left,right,h2,h4,h5,h6,pre,script,style,font'
 
 map <S-F4> :w<cr> :VimwikiAll2HTML<cr>
 map <F4> :w<cr> :Vimwiki2HTML<cr> 
@@ -306,8 +306,20 @@ let g:vimwiki_list = [{
 \ 'path': 'D:/mysite/wiki',
 \ 'path_html': 'D:/mysite/html/',
 \ 'auto_export': 1,
-\ 'nested_syntaxes': {'Clang': 'c', 'C++': 'cpp', 'Lisp': 'lisp', 'Ruby': 'ruby', 'SQL': 'sql', 'Bash': 'sh', 'Vim': 'vim', 'Make': 'make', 'CMake': 'cmake', 'JS': 'javascript', 'CSS': 'css', 'HTML': 'html', 'XML': 'xml'},}]
+\ 'nested_syntaxes': {'python': 'python', 'Clang': 'c', 'C++': 'cpp', 'Lisp': 'lisp', 'Ruby': 'ruby', 'SQL': 'sql', 'Bash': 'sh', 'Vim': 'vim', 'Make': 'make', 'CMake': 'cmake', 'JS': 'javascript', 'CSS': 'css', 'HTML': 'html', 'XML': 'xml'},}]
 
 " calendar 日历功能
-map <F12> :Calendar<cr> 
+map <F8> :Calendar<cr> 
 
+" 使用source insight打开
+nnoremap <silent>  <F12> :!start "D:\Program Files\Source Insight 3\Insight3.exe" -i  +<C-R>=expand(line("."))<CR> %<CR>
+
+"启动时不显示提示
+set shortmess=atI
+
+" 保留历史记录
+set history=500
+
+" 更改注释的颜色
+hi Comment term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=yellow guibg=NONE
+ 

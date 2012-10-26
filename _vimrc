@@ -89,6 +89,7 @@ set mouse=a                  " 启用鼠标
 set ruler                    " 右下角显示光标位置的状态行
 set incsearch                " 开启实时搜索功能
 set hlsearch                 " 开启高亮显示结果
+set ignorecase               " 查找不区分大小写
 "set nowrapscan              " 搜索到文件两端时不重新搜索
 set nocompatible             " 关闭兼容模式
 set noerrorbells             " 关闭错误信息响铃
@@ -109,6 +110,11 @@ set nobackup
 set listchars=tab:\|\ ,
 set tabstop=4                " 设置Tab键的宽度        [等同的空格个数]
 set expandtab                " 将Tab自动转化成空格    [需要输入真正的Tab键时，使用 Ctrl+V + Tab]
+
+" 删除搜索高亮
+map <c-n> :nohlsearch <CR>
+" 高亮标记
+map <c-m> <leader>m
 
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
@@ -249,30 +255,30 @@ map tl :Tlist<CR><c-l>
 " ======= 编译 && 运行 ======= "
 
 " 编译源文件
-func! CompileCode()
-        exec "w"
-        if &filetype == "c"
-            exec "!gcc -Wall %<.c -o %<"
-        elseif &filetype == "cpp"
-            exec "!g++ -Wall %<.cpp -o %<"
-        elseif &filetype == "ruby"
-            exec "!ruby %<.rb"
-        elseif &filetype == "sh"
-            exec "!bash %<.sh"
-        endif
-endfunc
+"func! CompileCode()
+"       exec "w"
+"       if &filetype == "c"
+"           exec "!gcc -Wall %<.c -o %<"
+"       elseif &filetype == "cpp"
+"           exec "!g++ -Wall %<.cpp -o %<"
+"       elseif &filetype == "ruby"
+"           exec "!ruby %<.rb"
+"       elseif &filetype == "sh"
+"           exec "!bash %<.sh"
+"       endif
+"endfunc
 
 " 运行可执行文件
-func! RunCode()
-        exec "w"
-        if &filetype == "c" || &filetype == "cpp"
-            exec "! %<.exe"
-        elseif &filetype == "ruby"
-            exec "!ruby %<.rb"
-        elseif &filetype == "sh"
-            exec "!bash %<.sh"
-        endif
-endfunc
+"func! RunCode()
+"        exec "w"
+"        if &filetype == "c" || &filetype == "cpp"
+"            exec "! %<.exe"
+"        elseif &filetype == "ruby"
+"            exec "!ruby %<.rb"
+"        elseif &filetype == "sh"
+"            exec "!bash %<.sh"
+"        endif
+"endfunc
 
 " Ctrl + C 一键保存、编译
 "map <c-c> :call CompileCode()<CR>

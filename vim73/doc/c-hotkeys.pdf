@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     
-    <title>c.vim/ftplugin/make.vim at master · vim-scripts/c.vim</title>
+    <title>c.vim/doc/c-hotkeys.pdf at master · vim-scripts/c.vim</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
@@ -31,7 +31,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient />
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="7A600D4A:24BC:ED88B6:53B2DAEA" name="octolytics-dimension-request_id" /><meta content="1491223" name="octolytics-actor-id" /><meta content="mindhunter" name="octolytics-actor-login" /><meta content="a7a385dcb8d9e9a8b7c29555eed163b7ec7ad9bdf9a50b20ba6be14fbbd3687f" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="7A600D4A:24BF:2251268:53B2DB0E" name="octolytics-dimension-request_id" /><meta content="1491223" name="octolytics-actor-id" /><meta content="mindhunter" name="octolytics-actor-login" /><meta content="a7a385dcb8d9e9a8b7c29555eed163b7ec7ad9bdf9a50b20ba6be14fbbd3687f" name="octolytics-actor-hash" />
     
 
     
@@ -40,7 +40,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="pAQPJBrbVAMMCF/Bfnj1Jp/TOLUJ7Stpp+zOBu6TY4msRhX7SsQAEmmzI5Izi8d9NQEs5HJWCFPExhhgdvUm1Q==" name="csrf-token" />
+<meta content="QdafSt2khc2Hh2YYYGTsz3xD9ID/T7n6Qu0lliio5R+Qz6hv1WLSluGy46W9tRrW/nPPZ4ZyBFkzHagCMFRvrQ==" name="csrf-token" />
 
     <link href="https://assets-cdn.github.com/assets/github-e4f37cab1c29752bc6394f9e4325b746e81eb85c.css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://assets-cdn.github.com/assets/github2-225e9d18e05462895d978cd03faa57f48b2c2b9a.css" media="all" rel="stylesheet" type="text/css" />
@@ -214,7 +214,7 @@
 <ul class="pagehead-actions">
 
     <li class="subscription">
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="un14R8/tgLKgjbK1RwsdtXDit7qNv+lLsGmrHwjh5K9kWlatl1xDFiYod5ilsQP841RU8VigEisNS7Uaegc8EQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="1079024" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="MMaAqOVDMXEVk1iNR6NQ572qvMIv2Wh9uIM9ecKIdHFxWO8D+c4XYMoHUackMnOffucWWLjpM0i2Rb+YUcVsYA==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="1079024" />
 
     <div class="select-menu js-menu-container js-select-menu">
       <a class="social-count js-social-count" href="/vim-scripts/c.vim/watchers">
@@ -289,7 +289,7 @@
 
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/vim-scripts/c.vim/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="3EVkQ5qrqxcCeKzASRe6BVqYn/cgGKDsXbKUzkIlazWoG5B3lCgySr6balytJpsMGfvBft/Lu481rHLJyaiJZw==" /></div>
+    <form accept-charset="UTF-8" action="/vim-scripts/c.vim/unstar" class="js-toggler-form starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="sD1nYPFKfK+ilFHSAFo4BUvNZQt3DnW+3ZZolgL+S6CbmU6UevkE/oPv3p47Dp/UJj8qi5/j1i1kLnPejpHDAw==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Unstar this repository" title="Unstar vim-scripts/c.vim">
@@ -300,7 +300,7 @@
           51
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/vim-scripts/c.vim/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="fn5PZhnPELhBwGLmPuYcEtlOQXWmHepqyiMRVXYIMwhh58OC2Hcm/JYfBaUuGmdJYdXOw2pI3qx7n2Guf/XwLA==" /></div>
+    <form accept-charset="UTF-8" action="/vim-scripts/c.vim/star" class="js-toggler-form unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="PL0Ng6EdyAvJNE7F1+lgsuD5FCU1Y8BOW5sMjhqMH2C/1aNm22jIfHKiShq5kLTr/+aRJL/k9Oi8Hn9/bZr/qw==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Star this repository" title="Star vim-scripts/c.vim">
@@ -469,9 +469,9 @@
           
 
 
-<a href="/vim-scripts/c.vim/blob/69f0368c7d8dac196bd94ddfa80d98b1cedc7eb0/ftplugin/make.vim" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/vim-scripts/c.vim/blob/69f0368c7d8dac196bd94ddfa80d98b1cedc7eb0/doc/c-hotkeys.pdf" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:f31d3efbdeeaf55d2d9fed91aa18a9bc -->
+<!-- blob contrib key: blob_contributors:v21:c5a88c9aaab1ac312bb776e5b5c810a1 -->
 
 <p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
 
@@ -520,7 +520,7 @@
 
             <div class="select-menu-item js-navigation-item selected">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/blob/master/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/blob/master/doc/c-hotkeys.pdf"
                  data-name="master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -538,7 +538,7 @@
 
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/6.1.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/6.1.1/doc/c-hotkeys.pdf"
                  data-name="6.1.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -547,7 +547,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/6.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/6.1/doc/c-hotkeys.pdf"
                  data-name="6.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -556,7 +556,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/6.0/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/6.0/doc/c-hotkeys.pdf"
                  data-name="6.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -565,7 +565,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.19/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.19/doc/c-hotkeys.pdf"
                  data-name="5.19"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -574,7 +574,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.18/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.18/doc/c-hotkeys.pdf"
                  data-name="5.18"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -583,7 +583,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.17/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.17/doc/c-hotkeys.pdf"
                  data-name="5.17"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -592,7 +592,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.16.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.16.1/doc/c-hotkeys.pdf"
                  data-name="5.16.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -601,7 +601,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.16/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.16/doc/c-hotkeys.pdf"
                  data-name="5.16"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -610,7 +610,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.15.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.15.1/doc/c-hotkeys.pdf"
                  data-name="5.15.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -619,7 +619,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.15/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.15/doc/c-hotkeys.pdf"
                  data-name="5.15"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -628,7 +628,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.14/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.14/doc/c-hotkeys.pdf"
                  data-name="5.14"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -637,7 +637,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.13/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.13/doc/c-hotkeys.pdf"
                  data-name="5.13"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -646,7 +646,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.12/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.12/doc/c-hotkeys.pdf"
                  data-name="5.12"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -655,7 +655,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.11/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.11/doc/c-hotkeys.pdf"
                  data-name="5.11"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -664,7 +664,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.10/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.10/doc/c-hotkeys.pdf"
                  data-name="5.10"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -673,7 +673,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.9/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.9/doc/c-hotkeys.pdf"
                  data-name="5.9"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -682,7 +682,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.8/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.8/doc/c-hotkeys.pdf"
                  data-name="5.8"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -691,7 +691,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.7/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.7/doc/c-hotkeys.pdf"
                  data-name="5.7"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -700,7 +700,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.6/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.6/doc/c-hotkeys.pdf"
                  data-name="5.6"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -709,7 +709,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.5/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.5/doc/c-hotkeys.pdf"
                  data-name="5.5"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -718,7 +718,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.4/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.4/doc/c-hotkeys.pdf"
                  data-name="5.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -727,7 +727,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.3/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.3/doc/c-hotkeys.pdf"
                  data-name="5.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -736,7 +736,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.2.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.2.1/doc/c-hotkeys.pdf"
                  data-name="5.2.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -745,7 +745,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.2/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.2/doc/c-hotkeys.pdf"
                  data-name="5.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -754,7 +754,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.1/doc/c-hotkeys.pdf"
                  data-name="5.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -763,7 +763,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0.5/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0.5/doc/c-hotkeys.pdf"
                  data-name="5.0.5"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -772,7 +772,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0.4/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0.4/doc/c-hotkeys.pdf"
                  data-name="5.0.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -781,7 +781,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0.3/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0.3/doc/c-hotkeys.pdf"
                  data-name="5.0.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -790,7 +790,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0.2/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0.2/doc/c-hotkeys.pdf"
                  data-name="5.0.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -799,7 +799,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0.1/doc/c-hotkeys.pdf"
                  data-name="5.0.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -808,7 +808,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/5.0/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/5.0/doc/c-hotkeys.pdf"
                  data-name="5.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -817,7 +817,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.6.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.6.1/doc/c-hotkeys.pdf"
                  data-name="4.6.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -826,7 +826,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.6/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.6/doc/c-hotkeys.pdf"
                  data-name="4.6"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -835,7 +835,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.5/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.5/doc/c-hotkeys.pdf"
                  data-name="4.5"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -844,7 +844,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.4/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.4/doc/c-hotkeys.pdf"
                  data-name="4.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -853,7 +853,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.3/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.3/doc/c-hotkeys.pdf"
                  data-name="4.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -862,7 +862,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.2.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.2.1/doc/c-hotkeys.pdf"
                  data-name="4.2.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -871,7 +871,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.2/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.2/doc/c-hotkeys.pdf"
                  data-name="4.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -880,7 +880,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.1/doc/c-hotkeys.pdf"
                  data-name="4.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -889,7 +889,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/4.0/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/4.0/doc/c-hotkeys.pdf"
                  data-name="4.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -898,7 +898,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.11/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.11/doc/c-hotkeys.pdf"
                  data-name="3.11"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -907,7 +907,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.10/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.10/doc/c-hotkeys.pdf"
                  data-name="3.10"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -916,7 +916,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.9.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.9.1/doc/c-hotkeys.pdf"
                  data-name="3.9.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -925,7 +925,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.9/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.9/doc/c-hotkeys.pdf"
                  data-name="3.9"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -934,7 +934,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.8.2/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.8.2/doc/c-hotkeys.pdf"
                  data-name="3.8.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -943,7 +943,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.8.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.8.1/doc/c-hotkeys.pdf"
                  data-name="3.8.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -952,7 +952,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.8/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.8/doc/c-hotkeys.pdf"
                  data-name="3.8"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -961,7 +961,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.7.2/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.7.2/doc/c-hotkeys.pdf"
                  data-name="3.7.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -970,7 +970,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.7.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.7.1/doc/c-hotkeys.pdf"
                  data-name="3.7.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -979,7 +979,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.7/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.7/doc/c-hotkeys.pdf"
                  data-name="3.7"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -988,7 +988,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.6/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.6/doc/c-hotkeys.pdf"
                  data-name="3.6"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -997,7 +997,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.5/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.5/doc/c-hotkeys.pdf"
                  data-name="3.5"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1006,7 +1006,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.4/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.4/doc/c-hotkeys.pdf"
                  data-name="3.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1015,7 +1015,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.1/doc/c-hotkeys.pdf"
                  data-name="3.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1024,7 +1024,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/3.0/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/3.0/doc/c-hotkeys.pdf"
                  data-name="3.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1033,7 +1033,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.8.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.8.1/doc/c-hotkeys.pdf"
                  data-name="2.8.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1042,7 +1042,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.8/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.8/doc/c-hotkeys.pdf"
                  data-name="2.8"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1051,7 +1051,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.6/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.6/doc/c-hotkeys.pdf"
                  data-name="2.6"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1060,7 +1060,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.1/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.1/doc/c-hotkeys.pdf"
                  data-name="2.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1069,7 +1069,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.0.3/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.0.3/doc/c-hotkeys.pdf"
                  data-name="2.0.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1078,7 +1078,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/vim-scripts/c.vim/tree/2.0/ftplugin/make.vim"
+              <a href="/vim-scripts/c.vim/tree/2.0/doc/c-hotkeys.pdf"
                  data-name="2.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -1103,7 +1103,7 @@
       <span class="octicon octicon-list-unordered"></span>
     </a>
     <button class="js-zeroclipboard minibutton zeroclipboard-button"
-          data-clipboard-text="ftplugin/make.vim"
+          data-clipboard-text="doc/c-hotkeys.pdf"
           aria-label="Copy to clipboard"
           data-copied-hint="Copied!">
       <span class="octicon octicon-clippy"></span>
@@ -1111,12 +1111,12 @@
   </div>
 
   <div class="breadcrumb">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vim-scripts/c.vim" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">c.vim</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vim-scripts/c.vim/tree/master/ftplugin" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ftplugin</span></a></span><span class="separator"> / </span><strong class="final-path">make.vim</strong>
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vim-scripts/c.vim" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">c.vim</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/vim-scripts/c.vim/tree/master/doc" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">doc</span></a></span><span class="separator"> / </span><strong class="final-path">c-hotkeys.pdf</strong>
   </div>
 </div>
 
 
-  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/vim-scripts/c.vim/contributors/master/ftplugin/make.vim">
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/vim-scripts/c.vim/contributors/master/doc/c-hotkeys.pdf">
     Fetching contributors…
 
     <div class="participation">
@@ -1132,27 +1132,20 @@
         <span class="icon"><b class="octicon octicon-file-text"></b></span>
         <span class="mode" title="File Mode">file</span>
         <span class="meta-divider"></span>
-          <span>32 lines (29 sloc)</span>
-          <span class="meta-divider"></span>
-        <span>1.432 kb</span>
+        <span>38.492 kb</span>
       </div>
       <div class="actions">
         <div class="button-group">
             <a class="minibutton tooltipped tooltipped-w"
-               href="github-windows://openRepo/https://github.com/vim-scripts/c.vim?branch=master&amp;filepath=ftplugin%2Fmake.vim" aria-label="Open this file in GitHub for Windows">
+               href="github-windows://openRepo/https://github.com/vim-scripts/c.vim?branch=master&amp;filepath=doc%2Fc-hotkeys.pdf" aria-label="Open this file in GitHub for Windows">
                 <span class="octicon octicon-device-desktop"></span> Open
             </a>
-                <a class="minibutton tooltipped tooltipped-n js-update-url-with-hash"
-                   aria-label="Clicking this button will automatically fork this project so you can edit the file"
-                   href="/vim-scripts/c.vim/edit/master/ftplugin/make.vim"
-                   data-method="post" rel="nofollow">Edit</a>
-          <a href="/vim-scripts/c.vim/raw/master/ftplugin/make.vim" class="minibutton " id="raw-url">Raw</a>
-            <a href="/vim-scripts/c.vim/blame/master/ftplugin/make.vim" class="minibutton js-update-url-with-hash">Blame</a>
-          <a href="/vim-scripts/c.vim/commits/master/ftplugin/make.vim" class="minibutton " rel="nofollow">History</a>
+          <a href="/vim-scripts/c.vim/raw/master/doc/c-hotkeys.pdf" class="minibutton " id="raw-url">Raw</a>
+          <a href="/vim-scripts/c.vim/commits/master/doc/c-hotkeys.pdf" class="minibutton " rel="nofollow">History</a>
         </div><!-- /.button-group -->
 
             <a class="minibutton danger empty-icon tooltipped tooltipped-s"
-               href="/vim-scripts/c.vim/delete/master/ftplugin/make.vim"
+               href="/vim-scripts/c.vim/delete/master/doc/c-hotkeys.pdf"
                aria-label="Fork this project and delete file"
                data-method="post" data-test-id="delete-blob-file" rel="nofollow">
 
@@ -1161,46 +1154,10 @@
       </div><!-- /.actions -->
     </div>
       
-  <div class="blob-wrapper data type-viml js-blob-data">
-       <table class="file-code file-diff tab-size-8">
-         <tr class="file-code-line">
-           <td class="blob-line-nums">
-             <span id="L1" rel="#L1">1</span>
-<span id="L2" rel="#L2">2</span>
-<span id="L3" rel="#L3">3</span>
-<span id="L4" rel="#L4">4</span>
-<span id="L5" rel="#L5">5</span>
-<span id="L6" rel="#L6">6</span>
-<span id="L7" rel="#L7">7</span>
-<span id="L8" rel="#L8">8</span>
-<span id="L9" rel="#L9">9</span>
-<span id="L10" rel="#L10">10</span>
-<span id="L11" rel="#L11">11</span>
-<span id="L12" rel="#L12">12</span>
-<span id="L13" rel="#L13">13</span>
-<span id="L14" rel="#L14">14</span>
-<span id="L15" rel="#L15">15</span>
-<span id="L16" rel="#L16">16</span>
-<span id="L17" rel="#L17">17</span>
-<span id="L18" rel="#L18">18</span>
-<span id="L19" rel="#L19">19</span>
-<span id="L20" rel="#L20">20</span>
-<span id="L21" rel="#L21">21</span>
-<span id="L22" rel="#L22">22</span>
-<span id="L23" rel="#L23">23</span>
-<span id="L24" rel="#L24">24</span>
-<span id="L25" rel="#L25">25</span>
-<span id="L26" rel="#L26">26</span>
-<span id="L27" rel="#L27">27</span>
-<span id="L28" rel="#L28">28</span>
-<span id="L29" rel="#L29">29</span>
-<span id="L30" rel="#L30">30</span>
-<span id="L31" rel="#L31">31</span>
-
-           </td>
-           <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'><span class="c">&quot; ------------------------------------------------------------------------------</span></div><div class='line' id='LC2'><span class="c">&quot;</span></div><div class='line' id='LC3'><span class="c">&quot; Vim filetype plugin file (part of the c.vim plugin)</span></div><div class='line' id='LC4'><span class="c">&quot;</span></div><div class='line' id='LC5'><span class="c">&quot;   Language :  make </span></div><div class='line' id='LC6'><span class="c">&quot;     Plugin :  c.vim </span></div><div class='line' id='LC7'><span class="c">&quot; Maintainer :  Fritz Mehner &lt;mehner@fh-swf.de&gt;</span></div><div class='line' id='LC8'><span class="c">&quot;   Revision :  $Id: make.vim,v 1.4 2011/12/27 21:04:33 mehner Exp $</span></div><div class='line' id='LC9'><span class="c">&quot;</span></div><div class='line' id='LC10'><span class="c">&quot; ------------------------------------------------------------------------------</span></div><div class='line' id='LC11'><span class="c">&quot;</span></div><div class='line' id='LC12'><span class="c">&quot; Only do this when not done yet for this buffer</span></div><div class='line' id='LC13'><span class="c">&quot; </span></div><div class='line' id='LC14'><span class="k">if</span> exists<span class="p">(</span><span class="s2">&quot;b:did_make_ftplugin&quot;</span><span class="p">)</span></div><div class='line' id='LC15'>&nbsp;&nbsp;<span class="k">finish</span></div><div class='line' id='LC16'><span class="k">endif</span></div><div class='line' id='LC17'><span class="k">let</span> <span class="k">b</span>:did_make_ftplugin <span class="p">=</span> <span class="m">1</span></div><div class='line' id='LC18'><br/></div><div class='line' id='LC19'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>C<span class="p">-</span>F9<span class="p">&gt;</span>                  :<span class="k">call</span> C_Make<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC20'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>C<span class="p">-</span>F9<span class="p">&gt;</span>             <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_Make<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC21'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rm         :<span class="k">call</span> C_Make<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC22'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rm    <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_Make<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC23'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rcm        :<span class="k">call</span> C_ChooseMakefile<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC24'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rcm   <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_ChooseMakefile<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC25'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rmc        :<span class="k">call</span> C_MakeClean<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC26'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rmc   <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_MakeClean<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC27'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rme        :<span class="k">call</span> C_MakeExeToRun<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC28'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rme   <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_MakeExeToRun<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC29'>&nbsp;map    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rma        :<span class="k">call</span> C_MakeArguments<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC30'>imap    <span class="p">&lt;</span>buffer<span class="p">&gt;</span>  <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span>  <span class="p">&lt;</span>LocalLeader<span class="p">&gt;</span>rma   <span class="p">&lt;</span>C<span class="p">-</span>C<span class="p">&gt;</span>:<span class="k">call</span> C_MakeArguments<span class="p">()&lt;</span>CR<span class="p">&gt;</span></div><div class='line' id='LC31'><br/></div></pre></div></td>
-         </tr>
-       </table>
+  <div class="blob-wrapper data type-text js-blob-data">
+      <div class="image js-image">
+          <a href="/vim-scripts/c.vim/blob/master/doc/c-hotkeys.pdf?raw=true">View Raw</a>
+      </div>
   </div>
 
   </div>
@@ -1241,7 +1198,7 @@
     </a>
 
     <ul class="site-footer-links">
-      <li>&copy; 2014 <span title="0.06613s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2014 <span title="0.16605s from github-fe127-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="/site/terms">Terms</a></li>
         <li><a href="/site/privacy">Privacy</a></li>
         <li><a href="/security">Security</a></li>

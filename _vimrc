@@ -94,7 +94,8 @@ set ignorecase               " 查找不区分大小写
 set nocompatible             " 关闭兼容模式
 set noerrorbells             " 关闭错误信息响铃
 set novisualbell             " 关闭可视响铃
-set t_vb=                    " 关闭提示音
+set vb t_vb=                 " 关闭提示音
+au GuiEnter * set t_vb=      " 关闭闪屏
 set hidden                   " 允许在有未保存的修改时切换缓冲区
 set autochdir                " 设定文件浏览器目录为当前目录
 set foldmethod=syntax        " 选择代码折叠类型

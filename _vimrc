@@ -101,7 +101,7 @@ set autochdir                " 设定文件浏览器目录为当前目录
 set foldmethod=syntax        " 选择代码折叠类型
 set foldlevel=100            " 禁止自动折叠
 set laststatus=2             " 开启状态栏信息
-set cmdheight=2              " 命令行的高度，默认为1，这里设为2
+set cmdheight=1              " 命令行的高度，默认为1
 "set showmatch               " 显示括号配对情况
 set cursorline               " 突出显示当前行
 "set nowrap                  " 设置不自动换行

@@ -252,6 +252,20 @@ map nt :NERDTree<CR>
 " tl                  打开Taglist窗口，在右侧栏显示   [非插入模式]
 map tl :Tlist<CR><c-l>
 
+" NERDTree.vim
+let g:NERDTreeWinPos="left"
+let g:NERDTreeWinSize=25
+let g:NERDTreeShowLineNumbers=1
+let g:neocomplcache_enable_at_startup = 1 
+
+" Settings for tagslist
+let Tlist_File_Fold_Auto_Close = 1
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_WinWidth = 40
+"let Tlist_Sort_Type = 'order'
+let Tlist_Sort_Type = 'name'
+
 
 " ======= 编译 && 运行 ======= "
 

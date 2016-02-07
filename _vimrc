@@ -344,3 +344,25 @@ set history=500
 " 更改注释的颜色
 hi Comment term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=yellow guibg=NONE
  
+" set cscope
+set csprg=D:\cygwin\bin\cscope.exe
+set csto=0
+set cst
+set nocsverb
+" add any database in current directory
+if filereadable("cscope.out")
+    cs add cscope.out
+" else add database pointed to by environment
+elseif $CSCOPE_DB != ""
+    cs add $CSCOPE_DB
+endif
+set csverb
+
+nmap <M-f>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <M-f>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <M-f>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <M-f>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <M-f>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <M-f>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-f>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-f>d :cs find d <C-R>=expand("<cword>")<CR><CR>

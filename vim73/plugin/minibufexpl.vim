@@ -285,16 +285,16 @@ let loaded_minibufexplorer = 1
 " If we don't already have keyboard mappings for MBE then create them 
 " 
 if !hasmapto('<Plug>MiniBufExplorer')
-  map <unique> <Leader>mbe <Plug>MiniBufExplorer
+  map <unique> <Leader>bmbe <Plug>MiniBufExplorer
 endif
 if !hasmapto('<Plug>CMiniBufExplorer')
-  map <unique> <Leader>mbc <Plug>CMiniBufExplorer
+  map <unique> <Leader>bmbc <Plug>CMiniBufExplorer
 endif
 if !hasmapto('<Plug>UMiniBufExplorer')
-  map <unique> <Leader>mbu <Plug>UMiniBufExplorer
+  map <unique> <Leader>bmbu <Plug>UMiniBufExplorer
 endif
 if !hasmapto('<Plug>TMiniBufExplorer')
-  map <unique> <Leader>mbt <Plug>TMiniBufExplorer
+  map <unique> <Leader>bmbt <Plug>TMiniBufExplorer
 endif
 
 " }}}

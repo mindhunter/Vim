@@ -205,6 +205,7 @@ let g:miniBufExplMapWindowNavVim=1
 let g:miniBufExplMapWindowNavArrows=1
 let g:miniBufExplMapCTabSwitchBufs=1
 let g:miniBufExplModSelTarget=1
+"map <Leader>b :MiniBufExplorer<cr>  "不使用minibuffer 使用bufferexplor替换快捷键 \be \bs \bv
 
 " :Tlist              调用TagList
 let Tlist_Show_One_File=1                    " 只显示当前文件的tags

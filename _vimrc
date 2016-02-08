@@ -169,8 +169,6 @@ func! FullScreen()
     endif
 endfunc
 
-
-
 " ======= 引号 && 括号自动匹配 ======= "
 
 :inoremap ( ()<ESC>i

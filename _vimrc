@@ -358,11 +358,11 @@ elseif $CSCOPE_DB != ""
 endif
 set csverb
 
-nmap <M-f>s :cs find s <C-R>=expand("<cword>")<CR><CR>
-nmap <M-f>g :cs find g <C-R>=expand("<cword>")<CR><CR>
-nmap <M-f>c :cs find c <C-R>=expand("<cword>")<CR><CR>
-nmap <M-f>t :cs find t <C-R>=expand("<cword>")<CR><CR>
-nmap <M-f>e :cs find e <C-R>=expand("<cword>")<CR><CR>
-nmap <M-f>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
-nmap <M-f>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
-nmap <M-f>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <M-j>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-j>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-j>d :cs find d <C-R>=expand("<cword>")<CR><CR>

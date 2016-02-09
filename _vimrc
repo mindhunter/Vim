@@ -112,6 +112,8 @@ set listchars=tab:\|\ ,
 set tabstop=4                " 设置Tab键的宽度        [等同的空格个数]
 set expandtab                " 将Tab自动转化成空格    [需要输入真正的Tab键时，使用 Ctrl+V + Tab]
 
+let mapleader=","
+
 " 删除搜索高亮
 map <c-n> :nohlsearch <CR>
 " 高亮标记
@@ -204,6 +206,16 @@ let g:miniBufExplMapWindowNavArrows=1
 let g:miniBufExplMapCTabSwitchBufs=1
 let g:miniBufExplModSelTarget=1
 "map <Leader>b :MiniBufExplorer<cr>  "不使用minibuffer 使用bufferexplor替换快捷键 \be \bs \bv
+map <M-1> :b 1<cr>
+map <M-2> :b 2<cr>
+map <M-3> :b 3<cr>
+map <M-4> :b 4<cr>
+map <M-5> :b 5<cr>
+map <M-6> :b 6<cr>
+map <M-7> :b 7<cr>
+map <M-8> :b 8<cr>
+map <M-9> :b 9<cr>
+map <M-0> :b 0<cr>
 
 " :Tlist              调用TagList
 let Tlist_Show_One_File=1                    " 只显示当前文件的tags

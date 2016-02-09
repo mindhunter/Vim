@@ -146,10 +146,10 @@ if has("gui_running")
     "set lines=20 columns=90 " 指定窗口大小，lines为高度，columns为宽度
     set guioptions-=m        " 隐藏菜单栏
     set guioptions-=T        " 隐藏工具栏
-    "set guioptions-=L       " 隐藏左侧滚动条
-    "set guioptions-=r       " 隐藏右侧滚动条
-    "set guioptions-=b       " 隐藏底部滚动条
-    "set showtabline=0       " 隐藏Tab栏
+    set guioptions-=L       " 隐藏左侧滚动条
+    set guioptions-=r       " 隐藏右侧滚动条
+    set guioptions-=b       " 隐藏底部滚动条
+    set showtabline=0       " 隐藏Tab栏
 endif
 
 " 启用全屏插件，设置F11为快捷键 

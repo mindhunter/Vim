@@ -377,3 +377,23 @@ nmap <M-j>e :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <M-j>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-j>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-j>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+" 平分窗口显示
+nmap <M-k>s :scs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <M-k>g :scs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <M-k>c :scs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <M-k>t :scs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <M-k>e :scs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <M-k>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-k>i :scs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-k>d :scs find d <C-R>=expand("<cword>")<CR><CR>
+
+" 垂直窗口显示
+nmap <M-l>s :vert scs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <M-l>g :vert scs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <M-l>c :vert scs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <M-l>t :vert scs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <M-l>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <M-l>i :vert scs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
+

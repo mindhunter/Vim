@@ -408,14 +408,22 @@ nmap <M-l>i :vert scs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
-
 "filetype off
-"
-""Vundle 的路径
 "set rtp+=$VIM/vimfiles/bundle/Vundle.vim
 "call vundle#begin('$VIM/vimfiles/bundle/')
 "
 "Plugin 'gmarik/Vundle.vim'
+"
+"Plugin 'Syntastic'
+"Plugin 'EasyMotion'
+"
+"Plugin 'sessionman.vim'
+" set sessionoptions=blank,buffers,curdir,folds,tabpages,winsize
+" nmap <leader>sl :SessionList<CR>
+" nmap <leader>ss :SessionSave<CR>
+" nmap <leader>sc :SessionClose<CR>
+"
+"Plugin 'vim-airline/vim-airline'
 "
 "call vundle#end()
 "filetype plugin indent on

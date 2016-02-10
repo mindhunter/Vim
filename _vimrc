@@ -409,19 +409,30 @@ nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
 "filetype off
-"set rtp+=$VIM/vimfiles/bundle/Vundle.vim
-"call vundle#begin('$VIM/vimfiles/bundle/')
+"set rtp+=$VIM/../vimfiles/bundle/Vundle.vim
+"call vundle#begin('$VIM/../vimfiles/bundle/')
 "
 "Plugin 'gmarik/Vundle.vim'
 "
 "Plugin 'Syntastic'
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+"filetype plugin indent on
+" 
 "Plugin 'EasyMotion'
 "
 "Plugin 'sessionman.vim'
+" " 还没有调好
 " set sessionoptions=blank,buffers,curdir,folds,tabpages,winsize
 " nmap <leader>sl :SessionList<CR>
 " nmap <leader>ss :SessionSave<CR>
 " nmap <leader>sc :SessionClose<CR>
+"filetype plugin indent on
 "
 "Plugin 'vim-airline/vim-airline'
 "

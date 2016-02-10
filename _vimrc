@@ -114,16 +114,19 @@ set expandtab                " 将Tab自动转化成空格    [需要输入真�
 
 let mapleader=","
 
+" 粘贴时不适用删除的数据
+xnoremap p pgvy
+
 " 删除搜索高亮
 map <c-n> :nohlsearch <CR>
 " 高亮标记
 map <c-m> <leader>m
 
 " 最大化split窗口
-map  <M-=> <c-w>_
-map <M--> <c-w>80-
-map  <M-,> :vertical resize -250<CR>
-map <M-.> :vertical resize +250<CR>
+nmap  <M-=> <c-w>_
+nmap <M--> <c-w>80-
+nmap  <M-,> :vertical resize -250<CR>
+nmap <M-.> :vertical resize +250<CR>
 
 
 syntax enable                " 打开语法高亮

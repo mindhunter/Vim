@@ -267,8 +267,8 @@ vmap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
 " kk                  返回Normal模式，不执行保存      [插入模式]
 "imap kk <ESC>l
 
-" nt                  打开NERDTree窗口，在左侧栏显示  [非插入模式]
-map nt :NERDTree<CR>
+" 打开NERDTree窗口，在左侧栏显示  [非插入模式]
+map <Leader>t :NERDTree<CR>
 
 " tl                  打开Taglist窗口，在右侧栏显示   [非插入模式]
 map tl :Tlist<CR><c-l>
@@ -407,3 +407,15 @@ nmap <M-l>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <M-l>i :vert scs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
+
+
+filetype off
+
+"Vundle 的路径
+set rtp+=$VIM/vimfiles/bundle/Vundle.vim
+call vundle#begin('$VIM/vimfiles/bundle/')
+
+Plugin 'gmarik/Vundle.vim'
+
+call vundle#end()
+filetype plugin indent on

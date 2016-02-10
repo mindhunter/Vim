@@ -409,13 +409,13 @@ nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
 
-filetype off
-
-"Vundle 的路径
-set rtp+=$VIM/vimfiles/bundle/Vundle.vim
-call vundle#begin('$VIM/vimfiles/bundle/')
-
-Plugin 'gmarik/Vundle.vim'
-
-call vundle#end()
-filetype plugin indent on
+"filetype off
+"
+""Vundle 的路径
+"set rtp+=$VIM/vimfiles/bundle/Vundle.vim
+"call vundle#begin('$VIM/vimfiles/bundle/')
+"
+"Plugin 'gmarik/Vundle.vim'
+"
+"call vundle#end()
+"filetype plugin indent on

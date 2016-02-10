@@ -119,6 +119,13 @@ map <c-n> :nohlsearch <CR>
 " 高亮标记
 map <c-m> <leader>m
 
+" 最大化split窗口
+map  <M-=> <c-w>_
+map <M--> <c-w>80-
+map  <M-,> :vertical resize -250<CR>
+map <M-.> :vertical resize +250<CR>
+
+
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
 filetype indent on           " 针对不同的文件类型采用不同的缩进格式
@@ -141,7 +148,7 @@ language messages zh_CN.utf-8
 
 
 if has("gui_running")
-    "au GUIEnter * simalt ~x  " 窗口启动时自动最大化
+    au GUIEnter * simalt ~x  " 窗口启动时自动最大化
     "winpos 20 20            " 指定窗口出现的位置，坐标原点在屏幕左上角
     "set lines=20 columns=90 " 指定窗口大小，lines为高度，columns为宽度
     set guioptions-=m        " 隐藏菜单栏
@@ -191,7 +198,7 @@ endfunc
 
 :inoremap ` ``<ESC>i
 
-function ClosePair(char)
+function! ClosePair(char)
     if getline('.')[col('.') - 1] == a:char
         return "\<Right>"
     else

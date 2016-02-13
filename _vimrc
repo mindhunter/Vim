@@ -113,20 +113,84 @@ set tabstop=4                " 设置Tab键的宽度        [等同的空格个�
 set expandtab                " 将Tab自动转化成空格    [需要输入真正的Tab键时，使用 Ctrl+V + Tab]
 
 let mapleader=","
+let g:mapleader=","
+
+" Map ; to : and save a million keystrokes 用于快速进入命令行
+nnoremap ; :
+
+" 复制选中区到系统剪切板中
+vnoremap <leader>y "+y
+
+" 打开自动定位到最后编辑的位置, 需要确认 .viminfo 当前用户可写
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
+" 在上下移动光标时，光标的上方或下方至少会保留显示的行数
+set scrolloff=7
+
+" 相对行号: 行号变成相对，可以用 nj/nk 进行跳转
+"set relativenumber number
+"au FocusLost * :set norelativenumber number
+"au FocusGained * :set relativenumber
+" 插入模式下用绝对行号, 普通模式下用相对
+"autocmd InsertEnter * :set norelativenumber number
+"autocmd InsertLeave * :set relativenumber
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set norelativenumber number
+  else
+    set relativenumber
+  endif
+endfunc
+nnoremap <C-n> :call NumberToggle()<cr>
+
+
+"多窗口编辑时, 临时放大某个窗口, 编辑完再切回原来的布局
+" http://stackoverflow.com/questions/13194428/is-better-way-to-zoom-windows-in-vim-than-zoomwin
+" Zoom / Restore window.
+function! s:ZoomToggle() abort
+    if exists('t:zoomed') && t:zoomed
+        execute t:zoom_winrestcmd
+        let t:zoomed = 0
+    else
+        let t:zoom_winrestcmd = winrestcmd()
+        resize
+        vertical resize
+        let t:zoomed = 1
+    endif
+endfunction
+command! ZoomToggle call s:ZoomToggle()
+nnoremap <silent> <Leader>z :ZoomToggle<CR>
+
+
+"" 代码折叠自定义快捷键 <leader>zz
+"let g:FoldMethod = 0
+"map <leader>zz :call ToggleFold()<cr>
+"fun! ToggleFold()
+"    if g:FoldMethod == 0
+"        exe "normal! zM"
+"        let g:FoldMethod = 1
+"    else
+"        exe "normal! zR"
+"        let g:FoldMethod = 0
+"    endif
+"endfun
+
 
 " 粘贴时不适用删除的数据
 xnoremap p pgvy
 
 " 删除搜索高亮
-map <C-n> :nohlsearch <CR>
+map <silent><leader>s :nohlsearch <CR>
 " 高亮标记
 map <c-m> <leader>m
 
-" 最大化split窗口
-nmap  <leader>j <c-w>_
-nmap  <leader>k <c-w>80-
-nmap  <leader>h :vertical resize +250<CR>
-nmap  <leader>l :vertical resize -250<CR>
+"" 最大化split窗口
+"nmap  <leader>j <c-w>_
+"nmap  <leader>k <c-w>80-
+"nmap  <leader>h :vertical resize +250<CR>
+"nmap  <leader>l :vertical resize -250<CR>
 
 
 syntax enable                " 打开语法高亮

@@ -97,7 +97,7 @@ set novisualbell             " 关闭可视响铃
 set vb t_vb=                 " 关闭提示音
 au GuiEnter * set t_vb=      " 关闭闪屏
 set hidden                   " 允许在有未保存的修改时切换缓冲区
-set autochdir                " 设定文件浏览器目录为当前目录
+"set autochdir                " 设定文件浏览器目录为当前目录
 set foldmethod=syntax        " 选择代码折叠类型
 set foldlevel=100            " 禁止自动折叠
 set laststatus=2             " 开启状态栏信息

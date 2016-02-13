@@ -123,10 +123,10 @@ map <C-n> :nohlsearch <CR>
 map <c-m> <leader>m
 
 " 最大化split窗口
-nmap  <M-j> <c-w>_
-nmap  <M-k> <c-w>80-
-nmap  <M-h> :vertical resize -250<CR>
-nmap  <M-l> :vertical resize +250<CR>
+nmap  <leader>j <c-w>_
+nmap  <leader>k <c-w>80-
+nmap  <leader>h :vertical resize +250<CR>
+nmap  <leader>l :vertical resize -250<CR>
 
 
 syntax enable                " 打开语法高亮
@@ -142,7 +142,7 @@ au BufRead,BufNewFile *.s,*.c,*.cpp*.h,*.cl,*.rb,*.sql,*.sh,*.vim,*.js,*.css,*.h
 " 设置编码
 set fenc=utf-8
 set encoding=utf-8
-set fileencodings=utf-8,gbk,cp936,latin-1
+set fileencodings=utf-8,gbk,cp936,atin-1
 " 解决菜单乱码
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
@@ -215,7 +215,7 @@ let g:miniBufExplMapWindowNavVim=1
 let g:miniBufExplMapWindowNavArrows=1
 let g:miniBufExplMapCTabSwitchBufs=1
 let g:miniBufExplModSelTarget=1
-"map <Leader>b :MiniBufExplorer<cr>  "不使用minibuffer 使用bufferexplor替换快捷键 \be \bs \bv
+"map <leader>b :MiniBufExplorer<cr>  "不使用minibuffer 使用bufferexplor替换快捷键 \be \bs \bv
 map <M-1> :b 1<cr>
 map <M-2> :b 2<cr>
 map <M-3> :b 3<cr>
@@ -272,7 +272,7 @@ vmap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
 "imap kk <ESC>l
 
 " 打开NERDTree窗口，在左侧栏显示  [非插入模式]
-map <Leader>t :NERDTree<CR>
+map <leader>t :NERDTree<CR>
 
 " tl                  打开Taglist窗口，在右侧栏显示   [非插入模式]
 map tl :Tlist<CR><c-l>

@@ -182,7 +182,7 @@ nnoremap <silent> <Leader>z :ZoomToggle<CR>
 xnoremap p pgvy
 
 " 删除搜索高亮
-map <silent><leader>s :nohlsearch <CR>
+map <silent><leader>/ :nohlsearch <CR>
 " 高亮标记
 map <c-m> <leader>m
 

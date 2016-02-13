@@ -466,8 +466,11 @@ Plugin 'vim-airline/vim-airline'
 ""设置顶部tabline栏符号显示"
 "let g:airline#extensions#tabline#left_sep = "\u2b80"
 "let g:airline#extensions#tabline#left_alt_sep = "\u2b81"
-
 filetype plugin indent on
+
+Plugin 'ctrlp.vim'
+  let g:ctrlp_map = '<c-p>'
+  let g:ctrlp_cmd = 'CtrlP'
 
 call vundle#end()
 filetype plugin indent on

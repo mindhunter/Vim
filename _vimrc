@@ -325,9 +325,9 @@ imap <c-k> <ESC>kA
 imap <c-l> <ESC>A
 
 " Ctrl + E            一步加载语法模板和作者、时间信息
-map <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
-imap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
-vmap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
+"map <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
+"imap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
+"vmap <c-e> <ESC>:LoadTemplate<CR><ESC>:AuthorInfoDetect<CR><ESC>Gi
 
 " jj                  保存当前文件并留在插入模式      [插入模式]
 "imap jj <ESC>:w<CR>li
@@ -533,8 +533,18 @@ Plugin 'vim-airline/vim-airline'
 filetype plugin indent on
 
 Plugin 'ctrlp.vim'
-  let g:ctrlp_map = '<c-p>'
-  let g:ctrlp_cmd = 'CtrlP'
+ let g:ctrlp_map = '<c-p>'
+ let g:ctrlp_cmd = 'CtrlP'
+ let g:ctrlp_custom_ignore = {
+     \ 'dir':  '\v[\/]\.(git|hg|svn|rvm)$',
+     \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz|pyc)$',
+     \ }
+ let g:ctrlp_working_path_mode=0
+ let g:ctrlp_match_window_bottom=1
+ let g:ctrlp_max_height=15
+ let g:ctrlp_match_window_reversed=0
+ let g:ctrlp_mruf_max=500
+ let g:ctrlp_follow_symlinks=1
 
 call vundle#end()
 filetype plugin indent on

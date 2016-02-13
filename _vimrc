@@ -484,6 +484,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Syntastic'
 "http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html
+"http://www.tuicool.com/articles/bIfMzi6
  set statusline+=%#warningmsg#
  set statusline+=%{SyntasticStatuslineFlag()}
  set statusline+=%*

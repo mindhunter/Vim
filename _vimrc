@@ -483,6 +483,7 @@ call vundle#begin('$VIM/../vimfiles/bundle/')
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Syntastic'
+"http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html
  set statusline+=%#warningmsg#
  set statusline+=%{SyntasticStatuslineFlag()}
  set statusline+=%*

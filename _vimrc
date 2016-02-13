@@ -118,15 +118,15 @@ let mapleader=","
 xnoremap p pgvy
 
 " 删除搜索高亮
-map <c-n> :nohlsearch <CR>
+map <C-n> :nohlsearch <CR>
 " 高亮标记
 map <c-m> <leader>m
 
 " 最大化split窗口
-nmap  <M-=> <c-w>_
-nmap <M--> <c-w>80-
-nmap  <M-,> :vertical resize -250<CR>
-nmap <M-.> :vertical resize +250<CR>
+nmap  <C-=> <c-w>_
+nmap <C--> <c-w>80-
+nmap  <C-,> :vertical resize -250<CR>
+nmap <C-.> :vertical resize +250<CR>
 
 
 syntax enable                " 打开语法高亮
@@ -226,6 +226,10 @@ map <M-7> :b 7<cr>
 map <M-8> :b 8<cr>
 map <M-9> :b 9<cr>
 map <M-0> :b 0<cr>
+
+"设置切换Buffer快捷键"
+nnoremap <C-right> :bn<CR>
+nnoremap <C-left> :bp<CR>
 
 " :Tlist              调用TagList
 let Tlist_Show_One_File=1                    " 只显示当前文件的tags
@@ -408,33 +412,62 @@ nmap <M-l>i :vert scs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
-"filetype off
-"set rtp+=$VIM/../vimfiles/bundle/Vundle.vim
-"call vundle#begin('$VIM/../vimfiles/bundle/')
-"
-"Plugin 'gmarik/Vundle.vim'
-"
-"Plugin 'Syntastic'
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
-"filetype plugin indent on
-" 
-"Plugin 'EasyMotion'
-"
-"Plugin 'sessionman.vim'
-" " 还没有调好
-" set sessionoptions=blank,buffers,curdir,folds,tabpages,winsize
-" nmap <leader>sl :SessionList<CR>
-" nmap <leader>ss :SessionSave<CR>
-" nmap <leader>sc :SessionClose<CR>
-"filetype plugin indent on
-"
-"Plugin 'vim-airline/vim-airline'
-"
-"call vundle#end()
-"filetype plugin indent on
+filetype off
+set rtp+=$VIM/../vimfiles/bundle/Vundle.vim
+call vundle#begin('$VIM/../vimfiles/bundle/')
+
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'Syntastic'
+ set statusline+=%#warningmsg#
+ set statusline+=%{SyntasticStatuslineFlag()}
+ set statusline+=%*
+ let g:syntastic_always_populate_loc_list = 1
+ let g:syntastic_auto_loc_list = 1
+ let g:syntastic_check_on_open = 1
+ let g:syntastic_check_on_wq = 0
+filetype plugin indent on
+ 
+Plugin 'EasyMotion'
+
+Plugin 'sessionman.vim'
+ " 还没有调好
+ set sessionoptions=blank,buffers,curdir,folds,tabpages,winsize
+ nmap <leader>sl :SessionList<CR>
+ nmap <leader>ss :SessionSave<CR>
+ nmap <leader>sc :SessionClose<CR>
+filetype plugin indent on
+
+Plugin 'vim-airline/vim-airline'
+""这个是安装字体后 必须设置此项" 
+"let g:airline_powerline_fonts = 1   
+""打开tabline功能,方便查看Buffer和切换，这个功能比较不错"
+""我还省去了minibufexpl插件，因为我习惯在1个Tab下用多个buffer"
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#buffer_nr_show = 1
+""设置切换Buffer快捷键"
+"nnoremap <C-N> :bn<CR>
+"nnoremap <C-P> :bp<CR>
+"" 关闭状态显示空白符号计数,这个对我用处不大"
+"let g:airline#extensions#whitespace#enabled = 0
+"let g:airline#extensions#whitespace#symbol = '!'
+
+""设置状态栏符号显示，下面编码用双引号"
+"let g:Powerline_symbols="fancy"
+"let g:airline_symbols = {}
+"let g:airline_left_sep = "\u2b80" 
+"let g:airline_left_alt_sep = "\u2b81"
+"let g:airline_right_sep = "\u2b82"
+"let g:airline_right_alt_sep = "\u2b83"
+"let g:airline_symbols.branch = "\u2b60"
+"let g:airline_symbols.readonly = "\u2b64"
+"let g:airline_symbols.linenr = "\u2b61"
+
+""设置顶部tabline栏符号显示"
+"let g:airline#extensions#tabline#left_sep = "\u2b80"
+"let g:airline#extensions#tabline#left_alt_sep = "\u2b81"
+
+filetype plugin indent on
+
+call vundle#end()
+filetype plugin indent on

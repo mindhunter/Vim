@@ -123,10 +123,10 @@ map <C-n> :nohlsearch <CR>
 map <c-m> <leader>m
 
 " 最大化split窗口
-nmap  <C-=> <c-w>_
-nmap <C--> <c-w>80-
-nmap  <C-,> :vertical resize -250<CR>
-nmap <C-.> :vertical resize +250<CR>
+nmap  <M-j> <c-w>_
+nmap  <M-k> <c-w>80-
+nmap  <M-h> :vertical resize -250<CR>
+nmap  <M-l> :vertical resize +250<CR>
 
 
 syntax enable                " 打开语法高亮

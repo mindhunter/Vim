@@ -476,9 +476,10 @@ nmap <M-l>i :vert scs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <M-l>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 
+"git@github.com:VundleVim/Vundle.vim.git
 filetype off
-set rtp+=$VIM/../vimfiles/bundle/Vundle.vim
-call vundle#begin('$VIM/../vimfiles/bundle/')
+set rtp+=$VIM/vimfiles/bundle/Vundle.vim
+call vundle#begin('$VIM/vimfiles/bundle/')
 
 Plugin 'gmarik/Vundle.vim'
 

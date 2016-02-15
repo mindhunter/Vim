@@ -406,6 +406,9 @@ let g:vimwiki_use_mouse = 1
 " 不要将驼峰式词组作为 Wiki 词条
 let g:vimwiki_camel_case = 0
 
+" 标记完成的 checklist 项目会有特别的颜色
+let g:vimwiki_hl_cb_checked = 1
+
 " 声明可以在wiki里面使用的HTML标签
 let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,br,hr,div,del,code,red,center,left,right,h2,h4,h5,h6,pre,script,style,font'
 

@@ -434,7 +434,7 @@ set history=500
 hi Comment term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=yellow guibg=NONE
  
 " set cscope
-set csprg=D:\cygwin\bin\cscope.exe
+set csprg=$VIM\vim73\cscope.exe
 set csto=0
 set cst
 set nocsverb
